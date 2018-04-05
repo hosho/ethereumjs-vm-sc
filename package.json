@@ -2,10 +2,7 @@
   "name": "ethereumjs-vm",
   "version": "2.3.4",
   "description": "An Ethereum VM implementation",
-  "main": "dist/index.js",
-  "files": [
-    "dist"
-  ],
+  "main": "lib/index.js",
   "scripts": {
     "coverage": "istanbul cover ./tests/tester.js -- -s",
     "coveralls": "npm run coverage && coveralls <coverage/lcov.info",
